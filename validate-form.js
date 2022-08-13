@@ -25,11 +25,11 @@ $(document).ready(function () {
           required: true,
           email: true,
         },
-        contact: {
+        subject: {
           required: true,
-          number: true,
           minlength: 10,
-          maxlength: 10,
+          minlength5: true,
+          lettersonly: true,
         },
         message: {
           minlength5: true,
@@ -44,10 +44,6 @@ $(document).ready(function () {
         },
         email: {
           email: "Please enter a valid Email id",
-        },
-        contact: {
-          minlength: "Please enter a valid contact number",
-          maxlength: "Please enter a valid contact number",
         },
         message: {
           minlength: "Its too short! minimum 10 characters",
