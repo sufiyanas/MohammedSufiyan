@@ -29,6 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.7.0
@@ -611,7 +612,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action=""  role="form" class="submit-form">
+            <form action=""  role="form" class="submit-form" method="post">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -678,7 +679,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
+  <script src="./validate-form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <!-- <script>
     $(".submit-form").submit((e)=>{
         e.preventDefault()
         $.ajax({
@@ -696,7 +701,7 @@
             }
         })
     })
-</script>
+</script> -->
 
 </body>
 
